@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="apartment_layout.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Sandy and Leslie's apartment</title>
+</head>
+
+<body>
+    <div class="Main_Title">
+        <h1>Sandy and Leslie's Apartment</h1>
+        <p class="up">Click a room for detailed view</p>
+
+        <img class="apartment" src="apartmentfloorplan.jpg" usemap="#image-map">
+
+        <map name="Image_map">
+            <area target="" alt="bedroom1" title="bedroom1" href="bedroom.html" coords="47,109,183,265" shape="rect">
+            <area target="" alt="living" title="living" href="livingroom.html" coords="345,103,194,279" shape="rect">
+            <area target="" alt="bedroom2" title="bedroom2" href="bedroom.html"
+                coords="392,110,551,108,575,306,499,308,493,243,395,237" shape="poly">
+            <area target="" alt="kitchen" title="kitchen" href="kitchen.html" coords="290,287,185,378" shape="rect">
+            <area target="" alt="dining" title="dining" href="diningroom.html" coords="342,338,45" shape="circle">
+            <area target="" alt="apartment" title="apartment" href="apartment.html" coords="287,19,285,103,45,103,7,397,594,398,558,104,414,103,406,16,374,22,368,51,347,68,321,46,318,16" shape="poly">
+        </map>
+
+        <div class="Links">
+            <a href="apartment.html">Apartment</a>
+            <a href="bedroom.html">Bedroom1</a>
+            <a href="bedroom.html">Bedroom2</a>
+            <a href="diningroom.html">Dining Room</a>
+            <a href="kitchen.html">Kitchen</a>
+            <a class="Room" href="livingroom.html">Livig Room</a>
+        </div>
+    </div>
+
+    <div class="Paragraph">
+        <div class="Message1">
+            <h2 class="head">Welcome Message</h2>
+            <audio controls>
+                <source src="assets/apartment.mp3">
+            </audio>
+            <p class="Paragraph1">Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and
+                the
+                apartment building amenities are fantastic. We look forward to hearing from you!</p>
+
+            <h2 class="head">Survey</h2>
+            <p class="Paragraph2">How do you find about this apartment?Check any that apply:</p>
+            <label><input type="checkbox"> Web search</label>
+            <label><input type="checkbox"> Friend</label>
+            <label><input type="checkbox">Newspaper</label> <br>
+            
+           <form>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+           </form>
+            
+        </div>
+
+        <div class="Message2">
+            <h2 class="head">Apartment Services</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Day/Hours</th>
+                </tr>
+                <tr>
+                    <td>Gym</td>
+                    <td rowspan="2">
+                        Monday - Friday 6am - 10pm,<br>
+                        Saturday 8am - 8pm,<br>
+                        Sunday 8am - 5pm.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pool</td>
+                </tr>
+                <tr>
+                    <td>Laundry</td>
+                    <td> 24 hours, 7 days per week</td>
+                </tr>
+                <tr>
+                    <td class="Rowdata" colspan="2">Please do not allow people you do not know to use these facilities.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Message1">
+            <h2 class="head">Location</h2>
+            <img src="assets/location.png" alt="map">
+        </div>
+    </div>
+
+    <div class="Heading1">
+        <h2 class="head">Gallery</h2>
+    </div>
+    <div class="Images">
+        <div class="Message1">
+            <h4 class="head">Balcony</h4>
+            <img src="assets/thumbnails/balcony_sm.jpg" alt="balcony">
+        </div>
+        <div class="Message1">
+            <h4 class="head">Bathroom</h4>
+            <img src="assets/thumbnails/bathroom_sm.jpg" alt="Bathroom">
+        </div>
+        <div class="Message1">
+            <h4 class="head">Bedroom</h4>
+            <img src="assets/thumbnails/bedroom_sm.jpg" alt="bedroom">
+        </div>
+        <div class="Message1">
+            <h4 class="head">Dining Room</h4>
+            <img src="assets/thumbnails/diningroom_sm.jpg" alt="diningroom">
+        </div>
+        <div class="Message1">
+            <h4 class="head">Kitchen</h4>
+            <img src="assets/thumbnails/kitchen_sm.jpg" alt="Kitchen">
+        </div>
+        <div class="Message1">
+            <h4 class="head">living Room</h4>
+            <img src="assets/thumbnails/livingroom_sm.jpg" alt="livingroom">
+        </div>
+    </div>
+    
+    <p class="Text">For more information contact: <a href="#"> apartment@example.com</a>or <a href="#"> (905)
+            555-1234.</a> </p>
+
+    <footer>
+        <p>&copy;Sandy and Leslie 2023</p>
+    </footer>
+</body>
+
+</html>

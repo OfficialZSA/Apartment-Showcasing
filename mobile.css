@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+    .apartment{
+        display: none;
+    }
+    p.View{
+        display: none;
+    }
+    .Link{
+        display: flex;
+        flex-direction: column;
+    }
+    .Link a{
+        border: 0 !important;
+    }
+    .Paragraph1{
+        flex-direction: column;
+    }
+    .Images{
+        width: 90%;
+    }
+    .Message1{
+width: 50%;
+    }
+    .Message1,.Message2,.Message3{
+        width: 100%;
+    }
+    .Message3 img{
+        width: 50%;
+    }
+    .Photo{
+        width: 100%;
+    }
+}
+@media print {
+    .apartment{display: none;}
+}

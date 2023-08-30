@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.Main_Title{
+    margin: auto;
+    text-align: center;
+}
+div.Main_Title h1{
+    padding: 20px 0;
+    
+}
+div.Main_Title p{
+    padding: 10px 0;
+    text-align: center;
+}
+div.Main_Title div.link{
+    text-align: center;
+}
+div.Link a{
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 5px;
+}
+.Room{
+    border: 0 !important;
+}
+.Paragraph{
+display: flex;
+margin: 20px 0;
+}
+.Message1{
+    width: 45%;
+}
+.Paragraph1{
+margin: 20px 0 50px 0;
+}
+.Paragraph2{
+    margin: 10px 0;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+button{margin-top: 10px;}
+.Message2{
+    width: 35%;
+}
+table,td,th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+} 
+td,th{padding: 10px;}
+.Rowdata{
+    background-color: #8bb6a7;
+}
+th{
+    background-color: #aca4a4;
+}
+.Message3{
+    width: 20%;
+}
+.Message3 img{
+    width: 100%;
+}
+.Message1,.Message2,.Message3{
+    padding: 10px;
+}
+h2{
+    background-color: #f7c317;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+.Heading1 h2{
+    margin: 10px;
+}
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+.Message1{
+    width:22%;
+    padding: 30px 20px;
+}
+.Message1 img{
+    width: 100%;
+}
+h4{
+    background-color: #d45a2d;
+    margin-bottom: 10px;
+    padding: 7px;
+    color: white;
+}
+.Text,footer p{
+     text-align: center;
+    margin: 10px;
+    }
+/* page bedroom */
+.Talble_Body{
+    margin: 10px;
+}
+.Picture{
+    margin: 10px;
+    text-align: center;
+}
+.Photo{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+ 
